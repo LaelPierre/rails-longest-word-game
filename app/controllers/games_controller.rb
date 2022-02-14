@@ -4,5 +4,7 @@ class GamesController < ApplicationController
   end
 
   def score
+    raise
+    @response = params["word"]
   end
 end
